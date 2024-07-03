@@ -42,7 +42,7 @@ Install Horizon UI by running either of the following:
 Clone the repository with the following command:
 
 ```bash
-git clone https://github.com/horizon-ui/horizon-tailwind-react-ts.git
+git clone https://github.com/dodycode/horizon-tailwind-react-ts.git
 ```
 
 Run in terminal this command:
