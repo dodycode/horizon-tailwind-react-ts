@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
-import Navbar from "components/navbar";
-import Sidebar from "components/sidebar";
-import Footer from "components/footer/Footer";
-import routes from "routes";
+import Navbar from "@/components/navbar";
+import Sidebar from "@/components/sidebar";
+import Footer from "@/components/footer/Footer";
+import routes from "@/routes";
 
 export default function Admin(props: { [x: string]: any }) {
   const { ...rest } = props;
@@ -39,7 +39,7 @@ export default function Admin(props: { [x: string]: any }) {
       if (
         window.location.href.indexOf(routes[i].layout + routes[i].path) !== -1
       ) {
-        return routes[i].secondary;
+        return routes[i].secondary || false;
       }
     }
     return activeNavbar;

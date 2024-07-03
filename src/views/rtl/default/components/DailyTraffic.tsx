@@ -1,13 +1,13 @@
-import BarChart from "components/charts/BarChart";
-import { barChartDataDailyTraffic } from "variables/charts";
-import { barChartOptionsDailyTraffic } from "variables/charts";
+import BarChart from "@/components/charts/BarChart";
+import { barChartDataDailyTraffic } from "@/variables/charts";
+import { barChartOptionsDailyTraffic } from "@/variables/charts";
 import { MdArrowDropUp } from "react-icons/md";
-import Card from "components/card";
+import Card from "@/components/card";
 const DailyTraffic = () => {
   return (
     <Card extra="pb-7 p-[20px]">
       <div className="flex flex-row justify-between">
-        <div className="pt-2 ms-1">
+        <div className="ms-1 pt-2">
           <p className="text-sm font-medium leading-4 text-gray-600">
             Daily Traffic
           </p>
@@ -26,7 +26,7 @@ const DailyTraffic = () => {
         </div>
       </div>
 
-      <div className="h-[300px] w-full pt-10 pb-0">
+      <div className="h-[300px] w-full pb-0 pt-10">
         <BarChart
           chartData={barChartDataDailyTraffic}
           chartOptions={barChartOptionsDailyTraffic}
