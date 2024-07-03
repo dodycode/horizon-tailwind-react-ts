@@ -1,7 +1,7 @@
 import React from "react";
-import CardMenu from "components/card/CardMenu";
-import Card from "components/card";
-import Progress from "components/progress";
+import CardMenu from "@/components/card/CardMenu";
+import Card from "@/components/card";
+import Progress from "@/components/progress";
 import { MdCancel, MdCheckCircle, MdOutlineError } from "react-icons/md";
 
 import {
@@ -49,11 +49,11 @@ export default function ComplexTable(props: { tableData: any }) {
       cell: (info) => (
         <div className="flex items-center">
           {info.getValue() === "Approved" ? (
-            <MdCheckCircle className="text-green-500 me-1 dark:text-green-300" />
+            <MdCheckCircle className="me-1 text-green-500 dark:text-green-300" />
           ) : info.getValue() === "Disable" ? (
-            <MdCancel className="text-red-500 me-1 dark:text-red-300" />
+            <MdCancel className="me-1 text-red-500 dark:text-red-300" />
           ) : info.getValue() === "Error" ? (
-            <MdOutlineError className="text-amber-500 me-1 dark:text-amber-300" />
+            <MdOutlineError className="me-1 text-amber-500 dark:text-amber-300" />
           ) : null}
           <p className="text-sm font-bold text-navy-700 dark:text-white">
             {info.getValue()}
@@ -118,7 +118,7 @@ export default function ComplexTable(props: { tableData: any }) {
                       key={header.id}
                       colSpan={header.colSpan}
                       onClick={header.column.getToggleSortingHandler()}
-                      className="cursor-pointer border-b-[1px] border-gray-200 pt-4 pb-2 pr-4 text-start"
+                      className="cursor-pointer border-b-[1px] border-gray-200 pb-2 pr-4 pt-4 text-start"
                     >
                       <div className="items-center justify-between text-xs text-gray-200">
                         {flexRender(

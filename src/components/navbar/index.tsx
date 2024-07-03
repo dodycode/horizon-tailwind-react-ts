@@ -1,8 +1,8 @@
 import React from "react";
-import Dropdown from "components/dropdown";
+import Dropdown from "@/components/dropdown";
 import { FiAlignJustify } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import navbarimage from "assets/img/layout/Navbar.png";
+import navbarimage from "@/assets/img/layout/Navbar.png";
 import { BsArrowBarUp } from "react-icons/bs";
 import { FiSearch } from "react-icons/fi";
 import { RiMoonFill, RiSunFill } from "react-icons/ri";
@@ -10,7 +10,7 @@ import {
   IoMdNotificationsOutline,
   IoMdInformationCircleOutline,
 } from "react-icons/io";
-import avatar from "assets/img/avatars/avatar4.png";
+import avatar from "@/assets/img/avatars/avatar4.png";
 
 const Navbar = (props: {
   onOpenSidenav: () => void;
@@ -190,7 +190,7 @@ const Navbar = (props: {
           }
           children={
             <div className="flex h-48 w-56 flex-col justify-start rounded-[20px] bg-white bg-cover bg-no-repeat shadow-xl shadow-shadow-500 dark:!bg-navy-700 dark:text-white dark:shadow-none">
-              <div className="mt-3 ml-4">
+              <div className="ml-4 mt-3">
                 <div className="flex items-center gap-2">
                   <p className="text-sm font-bold text-navy-700 dark:text-white">
                     👋 Hey, Adela
@@ -199,7 +199,7 @@ const Navbar = (props: {
               </div>
               <div className="mt-3 h-px w-full bg-gray-200 dark:bg-white/20 " />
 
-              <div className="mt-3 ml-4 flex flex-col">
+              <div className="ml-4 mt-3 flex flex-col">
                 <a
                   href=" "
                   className="text-sm text-gray-800 dark:text-white hover:dark:text-white"

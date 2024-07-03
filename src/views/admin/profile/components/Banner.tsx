@@ -1,6 +1,6 @@
-import avatar from "assets/img/avatars/avatar11.png";
-import banner from "assets/img/profile/banner.png";
-import Card from "components/card";
+import avatar from "@/assets/img/avatars/avatar11.png";
+import banner from "@/assets/img/profile/banner.png";
+import Card from "@/components/card";
 
 const Banner = () => {
   return (
@@ -24,7 +24,7 @@ const Banner = () => {
       </div>
 
       {/* Post followers */}
-      <div className="mt-6 mb-3 flex gap-4 md:!gap-14">
+      <div className="mb-3 mt-6 flex gap-4 md:!gap-14">
         <div className="flex flex-col items-center justify-center">
           <p className="text-2xl font-bold text-navy-700 dark:text-white">17</p>
           <p className="text-sm font-normal text-gray-600">Posts</p>

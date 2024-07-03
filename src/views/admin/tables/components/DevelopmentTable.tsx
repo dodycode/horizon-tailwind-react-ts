@@ -1,10 +1,10 @@
 import React from "react";
-import CardMenu from "components/card/CardMenu";
+import CardMenu from "@/components/card/CardMenu";
 import { DiApple } from "react-icons/di";
 import { DiAndroid } from "react-icons/di";
 import { DiWindows } from "react-icons/di";
-import Card from "components/card";
-import Progress from "components/progress";
+import Card from "@/components/card";
+import Progress from "@/components/progress";
 
 import {
   createColumnHelper,
@@ -152,7 +152,7 @@ function CheckTable(props: { tableData: any }) {
                       key={header.id}
                       colSpan={header.colSpan}
                       onClick={header.column.getToggleSortingHandler()}
-                      className="cursor-pointer border-b-[1px] border-gray-200 pt-4 pb-2 pr-4 text-start"
+                      className="cursor-pointer border-b-[1px] border-gray-200 pb-2 pr-4 pt-4 text-start"
                     >
                       <div className="items-center justify-between text-xs text-gray-200">
                         {flexRender(
