@@ -6,10 +6,9 @@
 
 <p>&nbsp;</p>
 
-[<img alt="Horizon UI - Tailwind CSS React Admin dashboard template" src="https://i.ibb.co/1zhBQ2J/horizon-ui-tailwind-2.png" />](https://github.com/horizon-ui/horizon-tailwind-react-ts)
+[![Horizon UI Tailwind CSS React](https://horizon-ui.com/static/media/main-hero-image.c18f68e8fec5f9091e4c.png)](https://github.com/horizon-ui/horizon-tailwind-react-ts)
 
 <p>&nbsp;</p>
-
 
 Get started and build your dream web app with Horizon UI, the trendiest & innovative Open Source Admin Template for Tailwind CSS & React!
 
@@ -26,9 +25,9 @@ With Horizon UI you will find many examples for pages like NFTs Pages,
 Authentication Pages, Profile and so on. Just choose between a Basic Design or a cover and you are good to go!
 
 ### 🎉 [NEW] Horizon UI Components
+
 All the main components from both versions, this will help you to see and interact with all & the latest added components of Horizon (also, new components are on the way, stay tuned)! ⚡️
 <a href="https://horizon-ui.com/components/?ref=readme-horizon-tailwind-react-ts" target="_blank">See all components</a>
-
 
 ### Documentation
 
@@ -63,12 +62,6 @@ npm start
 If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages. You will be able to quickly set up the basic structure for your web project.
 
 View <a href="https://horizon-ui.com/horizon-tailwind-react-ts/?ref=readme-horizon-tailwind-react-ts" target="_blank">example pages here.</a>
-
-### Versions
-
-| Free Version                                                                                                       | PRO Version                                                                                                               |
-| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| [![Horizon UI Tailwind CSS React](https://i.ibb.co/1zhBQ2J/horizon-ui-tailwind-2.png)](https://www.horizon-ui.com/?ref=readme-horizon-tailwind-react-ts) | [![Horizon UI Tailwind CSS React PRO](https://i.ibb.co/d0cVzKB/horizon-ui-pro-tailwind.png)](https://www.horizon-ui.com/pro?ref=readme-horizon-tailwind-react-ts) |
 
 ### Figma Version
 
