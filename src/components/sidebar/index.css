@@ -1,0 +1,39 @@
+.navbar-routes-scroller {
+  --scrollbar-color-thumb: #adb5bd;
+  --scrollbar-color-track: rgba(236, 236, 236, 0.089);
+  --scrollbar-width: thin;
+  --scrollbar-width-legacy: 0.5rem;
+}
+
+@supports (scrollbar-width: auto) {
+  .navbar-routes-scroller,
+  .navbar-routes-scroller:hover {
+    scrollbar-color: var(--scrollbar-color-thumb) var(--scrollbar-color-track);
+    scrollbar-width: var(--scrollbar-width);
+  }
+
+  .navbar-routes-scroller {
+    scrollbar-color: transparent transparent;
+  }
+}
+
+@supports selector(::-webkit-scrollbar) {
+  .navbar-routes-scroller {
+    text-align: justify;
+  }
+  .navbar-routes-scroller::-webkit-scrollbar-thumb,
+  .navbar-routes-scroller::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-color-thumb);
+  }
+  .navbar-routes-scroller::-webkit-scrollbar-track {
+    background: var(--scrollbar-color-track);
+  }
+  .navbar-routes-scroller::-webkit-scrollbar {
+    max-width: var(--scrollbar-width-legacy);
+    max-height: var(--scrollbar-width-legacy);
+  }
+
+  .navbar-routes-scroller::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
+}

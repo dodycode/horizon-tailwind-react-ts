@@ -6,6 +6,8 @@ import Links from "./components/Links";
 import SidebarCard from "@/components/sidebar/componentsrtl/SidebarCard";
 import routes from "@/routes";
 
+import "./index.css";
+
 const Sidebar = (props: {
   open: boolean;
   onClose: React.MouseEventHandler<HTMLSpanElement>;
@@ -13,7 +15,7 @@ const Sidebar = (props: {
   const { open, onClose } = props;
   return (
     <div
-      className={`sm:none duration-175 linear fixed !z-50 flex min-h-full flex-col bg-white pb-10 shadow-2xl shadow-white/5 transition-all dark:!bg-navy-800 dark:text-white md:!z-50 lg:!z-50 xl:!z-0 ${
+      className={`sm:none duration-175 linear navbar-routes-scroller fixed !z-50 flex max-h-screen min-h-full flex-col overflow-hidden overflow-y-auto bg-white pb-10 shadow-2xl shadow-white/5 transition-all dark:!bg-navy-800 dark:text-white md:!z-50 lg:!z-50 xl:!z-0 ${
         open ? "translate-x-0" : "-translate-x-96"
       }`}
     >
